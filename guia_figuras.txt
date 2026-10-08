@@ -1,0 +1,115 @@
+--- SECCION 2.2.1 / FIGURA 1: grupo h = Exp. decreciente ---
+Archivos: S2-2-1_Fig1a_P01_senoidal_decreciente.pdf, S2-2-1_Fig1b_P06_cuadrada_decreciente.pdf, S2-2-1_Fig1c_P11_triangular_decreciente.pdf, S2-2-1_Fig1d_P16_diente_sierra_decreciente.pdf
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1a_P01_senoidal_decreciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1b_P06_cuadrada_decreciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1c_P11_triangular_decreciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1d_P16_diente_sierra_decreciente.pdf}
+\par\vspace{2mm}
+\caption{Entradas periódicas, respuesta al impulso exp. decreciente y salidas.}
+\label{fig:1_decreciente}
+\end{figure}
+
+--- SECCION 2.2.1 / FIGURA 1: grupo h = Exp. creciente ---
+Archivos: S2-2-1_Fig1e_P02_senoidal_creciente.pdf, S2-2-1_Fig1f_P07_cuadrada_creciente.pdf, S2-2-1_Fig1g_P12_triangular_creciente.pdf, S2-2-1_Fig1h_P17_diente_sierra_creciente.pdf
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1e_P02_senoidal_creciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1f_P07_cuadrada_creciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1g_P12_triangular_creciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1h_P17_diente_sierra_creciente.pdf}
+\par\vspace{2mm}
+\caption{Entradas periódicas, respuesta al impulso exp. creciente y salidas.}
+\label{fig:1_creciente}
+\end{figure}
+
+--- SECCION 2.2.1 / FIGURA 1: grupo h = Impulso ---
+Archivos: S2-2-1_Fig1i_P03_senoidal_impulso.pdf, S2-2-1_Fig1j_P08_cuadrada_impulso.pdf, S2-2-1_Fig1k_P13_triangular_impulso.pdf, S2-2-1_Fig1l_P18_diente_sierra_impulso.pdf
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1i_P03_senoidal_impulso.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1j_P08_cuadrada_impulso.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1k_P13_triangular_impulso.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1l_P18_diente_sierra_impulso.pdf}
+\par\vspace{2mm}
+\caption{Entradas periódicas, respuesta al impulso impulso y salidas.}
+\label{fig:1_impulso}
+\end{figure}
+
+--- SECCION 2.2.1 / FIGURA 1: grupo h = Escalón ---
+Archivos: S2-2-1_Fig1m_P04_senoidal_escalon.pdf, S2-2-1_Fig1n_P09_cuadrada_escalon.pdf, S2-2-1_Fig1o_P14_triangular_escalon.pdf, S2-2-1_Fig1p_P19_diente_sierra_escalon.pdf
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1m_P04_senoidal_escalon.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1n_P09_cuadrada_escalon.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1o_P14_triangular_escalon.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1p_P19_diente_sierra_escalon.pdf}
+\par\vspace{2mm}
+\caption{Entradas periódicas, respuesta al impulso escalón y salidas.}
+\label{fig:1_escalon}
+\end{figure}
+
+--- SECCION 2.2.1 / FIGURA 1: grupo h = Sinc ---
+Archivos: S2-2-1_Fig1q_P05_senoidal_sinc.pdf, S2-2-1_Fig1r_P10_cuadrada_sinc.pdf, S2-2-1_Fig1s_P15_triangular_sinc.pdf, S2-2-1_Fig1t_P20_diente_sierra_sinc.pdf
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1q_P05_senoidal_sinc.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1r_P10_cuadrada_sinc.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1s_P15_triangular_sinc.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-1_Fig1t_P20_diente_sierra_sinc.pdf}
+\par\vspace{2mm}
+\caption{Entradas periódicas, respuesta al impulso sinc y salidas.}
+\label{fig:1_sinc}
+\end{figure}
+
+--- SECCION 2.2.2 / FIGURA 2 --- (a = 2, t0 = 0.5 s)
+Archivos: S2-2-2_Fig2a_original, S2-2-2_Fig2d_a_y_t0, S2-2-2_Fig2e_comparacion (principales); S2-3-2_Fig2b_solo_a y S2-3-2_Fig2c_solo_t0 (extras, van en el analisis 2.3.2)
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-2_Fig2a_original.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-2_Fig2d_a_y_t0.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-2_Fig2e_comparacion.pdf}
+\par\vspace{2mm}
+\caption{Efecto del factor de proporcionalidad y del corrimiento temporal.}
+\label{fig:2}
+\end{figure}
+
+% Extras opcionales (efecto por separado):
+% \includegraphics[width=0.9\textwidth]{figuras/S2-3-2_Fig2b_solo_a.pdf}
+% \includegraphics[width=0.9\textwidth]{figuras/S2-3-2_Fig2c_solo_t0.pdf}
+
+--- SECCION 2.2.3 / FIGURA 3 / CUADRO 1 ---
+Archivos: S2-2-3_Fig3a_A1_decreciente_escalon.pdf, S2-2-3_Fig3b_A2_creciente_sinc.pdf, S2-2-3_Fig3c_A3_escalon_sinc.pdf, S2-2-3_Fig3d_A4_decreciente_creciente.pdf, S2-2-3_Fig3e_A5_impulso_sinc.pdf
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-3_Fig3a_A1_decreciente_escalon.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-3_Fig3b_A2_creciente_sinc.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-3_Fig3c_A3_escalon_sinc.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-3_Fig3d_A4_decreciente_creciente.pdf}
+\par\vspace{2mm}
+\includegraphics[width=0.9\textwidth]{figuras/S2-2-3_Fig3e_A5_impulso_sinc.pdf}
+\par\vspace{2mm}
+\caption{Convoluciones entre señales aperiódicas (casos A1 a A5).}
+\label{fig:3}
+\end{figure}

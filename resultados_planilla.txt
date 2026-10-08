@@ -1,0 +1,51 @@
+PARAMETROS (para la sección 2.1)
+fs = 1000 Hz, dt = 0.001 s, N periodicas = 2000, N aperiodicas = 6000
+Periodicas: A = 1, f0 = 5 Hz, ventana 0 a 2 s (10 periodos)
+Cuadrada: ciclo de trabajo 50%. Triangular: simetrica (width = 0.5). Diente de sierra: rampa creciente (width = 1)
+Aperiodicas: ventana -3 a 3 s. Impulso: una muestra de valor 1/dt en t = 0. Escalon: u(t) = 1 para t >= 0
+Tolerancia LTI: np.allclose (rtol = 1e-5, atol = 1e-8). Invarianza: retraso de 100 muestras (0.1 s)
+FIGURA 2 (S2-2-2_Fig2a_original): a = 1, t0 = 0 s, max|y| = 0.0606, inicio de la salida = -3.00 s
+FIGURA 2 (S2-3-2_Fig2b_solo_a): a = 2, t0 = 0 s, max|y| = 0.1212, inicio de la salida = -3.00 s
+FIGURA 2 (S2-3-2_Fig2c_solo_t0): a = 1, t0 = 0.5 s, max|y| = 0.0606, inicio de la salida = -2.50 s
+FIGURA 2 (S2-2-2_Fig2d_a_y_t0): a = 2, t0 = 0.5 s, max|y| = 0.1212, inicio de la salida = -2.50 s
+
+CUADRO 1 (Caso & Entrada & h & Figura)
+A1 & Exp. decreciente & Escalón & 3a \\
+A2 & Exp. creciente & Sinc & 3b \\
+A3 & Escalón & Sinc & 3c \\
+A4 & Exp. decreciente & Exp. creciente & 3d \\
+A5 & Impulso & Sinc & 3e \\
+
+CUADRO 2 (Caso & Entrada & h & Ex & Px & Ey & Py)  [E en unidades^2*s, P en unidades^2]
+P01 & Senoidal & Decreciente & 1 & 0.5 & 0.001649 & 0.0002062 \\
+P02 & Senoidal & Creciente & 1 & 0.5 & 0.01221 & 0.001527 \\
+P03 & Senoidal & Impulso & 1 & 0.5 & 1 & 0.125 \\
+P04 & Senoidal & Escalón & 1 & 0.5 & 0.006079 & 0.0007599 \\
+P05 & Senoidal & Sinc & 1 & 0.5 & 0.002292 & 0.0002866 \\
+P06 & Cuadrada & Decreciente & 2 & 1 & 0.003345 & 0.0004181 \\
+P07 & Cuadrada & Creciente & 2 & 1 & 0.02476 & 0.003096 \\
+P08 & Cuadrada & Impulso & 2 & 1 & 2 & 0.25 \\
+P09 & Cuadrada & Escalón & 2 & 1 & 0.0129 & 0.001613 \\
+P10 & Cuadrada & Sinc & 2 & 1 & 0.005408 & 0.0006761 \\
+P11 & Triangular & Decreciente & 0.6668 & 0.3334 & 0.0005104 & 6.38e-05 \\
+P12 & Triangular & Creciente & 0.6668 & 0.3334 & 0.003779 & 0.0004724 \\
+P13 & Triangular & Impulso & 0.6668 & 0.3334 & 0.6668 & 0.08336 \\
+P14 & Triangular & Escalón & 0.6668 & 0.3334 & 0.001335 & 0.0001669 \\
+P15 & Triangular & Sinc & 0.6668 & 0.3334 & 4.623e-06 & 5.78e-07 \\
+P16 & Diente de sierra & Decreciente & 0.6667 & 0.3334 & 0.001316 & 0.0001645 \\
+P17 & Diente de sierra & Creciente & 0.6667 & 0.3334 & 0.009741 & 0.001218 \\
+P18 & Diente de sierra & Impulso & 0.6667 & 0.3334 & 0.6667 & 0.08335 \\
+P19 & Diente de sierra & Escalón & 0.6667 & 0.3334 & 0.005567 & 0.0006959 \\
+P20 & Diente de sierra & Sinc & 0.6667 & 0.3334 & 0.002772 & 0.0003465 \\
+A1 & Exp. decreciente & Escalón & 0.4319 & 0.07198 & 1.068 & 0.08904 \\
+A2 & Exp. creciente & Sinc & 3.198 & 0.533 & 8.215 & 0.6847 \\
+A3 & Escalón & Sinc & 2.999 & 0.4998 & 21.57 & 1.798 \\
+A4 & Exp. decreciente & Exp. creciente & 0.4319 & 0.07198 & 0.8134 & 0.06779 \\
+A5 & Impulso & Sinc & 1000 & 166.7 & 2.836 & 0.2364 \\
+
+CUADRO 3 (Sistema & Linealidad & Invariancia)
+Exp. decreciente & Cumple & Cumple \\
+Exp. creciente & Cumple & Cumple \\
+Impulso & Cumple & Cumple \\
+Escalón & Cumple & Cumple \\
+Sinc & Cumple & Cumple \\

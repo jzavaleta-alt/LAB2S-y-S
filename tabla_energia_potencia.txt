@@ -1,0 +1,25 @@
+Senoidal & Exp. decreciente & 1.000 & 0.500 & 0.002 & 0.000 \\
+Cuadrada & Exp. decreciente & 2.000 & 1.000 & 0.003 & 0.000 \\
+Triangular & Exp. decreciente & 0.667 & 0.333 & 0.001 & 0.000 \\
+Diente de sierra & Exp. decreciente & 0.667 & 0.333 & 0.001 & 0.000 \\
+Senoidal & Exp. creciente & 1.000 & 0.500 & 0.012 & 0.002 \\
+Cuadrada & Exp. creciente & 2.000 & 1.000 & 0.025 & 0.003 \\
+Triangular & Exp. creciente & 0.667 & 0.333 & 0.004 & 0.000 \\
+Diente de sierra & Exp. creciente & 0.667 & 0.333 & 0.010 & 0.001 \\
+Senoidal & Impulso & 1.000 & 0.500 & 1.000 & 0.125 \\
+Cuadrada & Impulso & 2.000 & 1.000 & 2.000 & 0.250 \\
+Triangular & Impulso & 0.667 & 0.333 & 0.667 & 0.083 \\
+Diente de sierra & Impulso & 0.667 & 0.333 & 0.667 & 0.083 \\
+Senoidal & Escalón & 1.000 & 0.500 & 0.006 & 0.001 \\
+Cuadrada & Escalón & 2.000 & 1.000 & 0.013 & 0.002 \\
+Triangular & Escalón & 0.667 & 0.333 & 0.001 & 0.000 \\
+Diente de sierra & Escalón & 0.667 & 0.333 & 0.006 & 0.001 \\
+Senoidal & Sinc & 1.000 & 0.500 & 0.002 & 0.000 \\
+Cuadrada & Sinc & 2.000 & 1.000 & 0.005 & 0.001 \\
+Triangular & Sinc & 0.667 & 0.333 & 0.000 & 0.000 \\
+Diente de sierra & Sinc & 0.667 & 0.333 & 0.003 & 0.000 \\
+Exp. decreciente & Escalón & 0.432 & 0.072 & 1.068 & 0.089 \\
+Exp. creciente & Sinc & 3.198 & 0.533 & 8.215 & 0.685 \\
+Escalón & Sinc & 2.999 & 0.500 & 21.569 & 1.798 \\
+Exp. decreciente & Exp. creciente & 0.432 & 0.072 & 0.813 & 0.068 \\
+Impulso & Sinc & 1000.000 & 166.667 & 2.836 & 0.236 \\
